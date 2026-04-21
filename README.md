@@ -106,19 +106,6 @@ Franchise_management_system_task/
 | `PUT` | `/api/v1/franchise/{id}` | Update (franchise_code is immutable) |
 | `DELETE` | `/api/v1/franchise/{id}` | Delete |
 
-**Create Franchise:**
-```json
-{
-  "name": "Kochi Branch",
-  "email": "kochi@example.com",
-  "password": "Kochi@1234",
-  "phone": "9876543210",
-  "address": "MG Road, Kochi, Kerala",
-  "franchise_code": "KOCHI-001"
-}
-```
-
----
 
 ### 👤 Profile
 
